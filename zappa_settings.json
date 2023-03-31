@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "awscostexplorer.app",
+        "profile_name": "spar",
+        "project_name": "cloudopt-app",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-vcskrogr1",
+        "extra_permissions": [{ 
+            "Effect": "Allow",
+            "Action": ["ssm:*"], 
+            "Resource": "*"
+        }]
+    }
+}
